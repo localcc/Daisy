@@ -1,0 +1,3 @@
+add_executable(Example_Callbacks "main.cpp")
+target_compile_features(Example_Callbacks PRIVATE cxx_std_17)
+target_link_libraries(Example_Callbacks PRIVATE Daisy)
